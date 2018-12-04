@@ -2,7 +2,7 @@ const   axios = require(`axios`);
 
 const { GraphQLObjectType, GraphQLInt, GraphQLString, GraphQLBoolean, GraphQLList , GraphQLSchema} = require('graphql');
 
-// Launch Type.
+// Launch Type
 const LaunchType = new GraphQLObjectType({
     name : 'Launch',
     fields: ()=>({
